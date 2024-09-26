@@ -18,7 +18,6 @@ BMPImage* readBMP(const char *filename) {
   image->data = malloc(image->width * image->height * 3); // 3 bytes por píxel
   fread(image->data, sizeof(unsigned char), image->width * image->height * 3, file);
   fclose(file);
-
   return image;
 }
 
