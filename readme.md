@@ -15,7 +15,7 @@ Para instalar las bibliotecas necesarias en un sistema basado en Debian/Ubuntu, 
 
 ```bash
 sudo apt-get update
-sudo apt-get install freeglut3 freeglut3-dev
+sudo apt install freeglut3-dev
 sudo apt-get install libglfw3-dev
 ```
 
