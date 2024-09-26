@@ -32,9 +32,7 @@ int main(int argc, char **argv)
         printf("Error: No se pudo cargar el archivo BMP o el archivo no es válido.\n");
         return 1;
     }
-
     int opcionFiltro = atoi(argv[2]);
-
     // Menú para seleccionar el filtro a aplicar
     /*printf("Ingrese el filtro a aplicar:\n");
     printf("1) Imagen en NORMAL\n");
