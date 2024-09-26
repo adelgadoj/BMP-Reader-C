@@ -23,7 +23,6 @@ int main(int argc, char **argv)
         printf("Uso: %s <nombre_archivo_bmp>\n", argv[0]);
         return 1;
     }
-
     // Intentar cargar el archivo BMP
     const char *filename = argv[1];
     image = readBMP(filename);
